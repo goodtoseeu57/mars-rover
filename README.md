@@ -20,9 +20,9 @@ The main program run on `index.ts`
 
 The input for the program takes the following form separated by lines
 
-4 8
+`4 8
 (2, 3, E) LFRFF
-(0, 2, N) FFLFRFF
+(0, 2, N) FFLFRFF`
 
 1. First line indicates the m and n of the grid
 2. The remaining lines indicate the robot's movements, with parentheses denoting the initial position and orientation.
@@ -42,6 +42,6 @@ npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF"
 
 i stands for input and then you can pass you input like that
 
-48
+`48
 (2, 3, E) LFRFF
-(0, 2, N) FFLFRFF
+(0, 2, N) FFLFRFF`
