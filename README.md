@@ -43,13 +43,10 @@ This will open an interactive terminal, and you can run the CLI app like below
 npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF" 
 ```
 
-<<<<<<< HEAD
+
 i stands for input, and then you can pass your input like that
 `
 4 8
-=======
-i stands for input and then you can pass your input like that
-> > > > > > > 975b30da8a1452e7049ab84898e261132d533dae
 
 (2, 3, E) LFRFF
 
