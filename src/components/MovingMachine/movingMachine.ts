@@ -37,7 +37,7 @@ export function updateRobot(x: number, y: number, orientation: string, seriesOfM
     const initialCoordinates: Coordinate = { x, y }
     let location: Coordinate | undefined = { x, y };
 
-    const mappedMoves: (Moves | undefined | null)[] = convertMovesArray(seriesOfMoves)
+    const mappedMoves: (Moves | undefined | null)[] = convertMovesArray(seriesOfMoves).filter(isSomething)
     let currentOrientation = getOrientationFromString(orientation);
 
     if (currentOrientation == null) {
