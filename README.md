@@ -44,7 +44,7 @@ This will open an interactive terminal, and you can run the CLI app like below
 npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF" 
 ```
 
-i stands for input, and then you can pass you input like that
+i stands for input, and then you can pass your input like that
 
 ```
 4 8
