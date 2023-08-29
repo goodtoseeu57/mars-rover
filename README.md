@@ -45,6 +45,8 @@ npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF"
 
 i stands for input, and then you can pass you input like that
 
+
+
 ```
 4 8
 
