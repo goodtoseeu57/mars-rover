@@ -37,7 +37,7 @@ export function updateRobot(x: number, y: number, orientation: string, seriesOfM
     const initialCoordinates: Coordinate = { x, y }
     let location: Coordinate | undefined = { x, y };
 
-    const mappedMoves: (Moves | undefined | null)[] = convertMovesArray(seriesOfMoves).filter(isSomething)
+    const mappedMoves: (Moves)[] = convertMovesArray(seriesOfMoves).filter(isSomething)
     let currentOrientation = getOrientationFromString(orientation);
 
     if (currentOrientation == null) {
@@ -46,12 +46,12 @@ export function updateRobot(x: number, y: number, orientation: string, seriesOfM
 
 
     mappedMoves.map((i, index) => {
-        if (i == null) return
         const move = getMoveFromString(i)
 
-        if (currentOrientation == null || !move) {
-            throw new Error('Invalid orientation')
+        if (currentOrientation == null || move === null) {
+            throw new Error(`Invalid orientation ${calculateOrientation} or move ${move}`)
         }
+
         if (index === 0) {
             currentOrientation = calculateOrientation(currentOrientation, move)
             if (i === Moves.Forward) {
