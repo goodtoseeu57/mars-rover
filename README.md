@@ -59,5 +59,5 @@ i stands for input, and then you can pass you input like that
 
 or installing the Jest plugin in vs code and run them individually like below
 
-![](/Users/chris/Desktop/Screenshot 2023-08-29 at 21.58.17.png)
+
 
