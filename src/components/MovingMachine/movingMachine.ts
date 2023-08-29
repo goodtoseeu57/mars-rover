@@ -61,7 +61,6 @@ export function updateRobot(x: number, y: number, orientation: string, seriesOfM
             currentOrientation = calculateOrientation(currentOrientation, move)
             if (i === Moves.Forward && location) location = movingInMars(currentOrientation, location, cols, rows)
             if (location && index === mappedMoves.length - 1) {
-                console.log('came here')
                 console.log(`(${location.x}, ${location.y}, ${currentOrientation})`)
                 return;
             }

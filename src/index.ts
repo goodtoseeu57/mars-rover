@@ -48,10 +48,3 @@ program
     });
 
 program.parse(process.argv);
-
-
-const secondInput = `4 8
-(2, 3, N) FLLFR
-(1, 0, S) FFRLF`
-
-marsWorld(secondInput)

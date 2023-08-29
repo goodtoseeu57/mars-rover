@@ -18,6 +18,5 @@ export function createTheWorld(cols: number, rows: number): Array<Array<Coordina
         }
         world.push(innerArray);
     }
-    console.table(world)
     return world;
 }
