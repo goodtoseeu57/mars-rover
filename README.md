@@ -19,7 +19,8 @@ and `CalculateOrientation` sections.
 On `utils` folder you can find functions that can work as helpers e.g a `function` that _converts a string value to its
 corresponding enum value_.
 
-The main program run on `index.ts`
+The main program runs on `index.ts`. `/Marsworld` and `marsWorld` function is the starting point of the functionality
+logic.
 
 The input for the program takes the following form separated by lines
 
@@ -57,7 +58,9 @@ i stands for input, and then you can pass you input like that
 
 `npm run test `
 
-or installing the Jest plugin in vs code and run them individually like below
+or installing the Jest plugin in vs code and run them individually
+
+https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner
 
 
 
