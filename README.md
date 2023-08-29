@@ -13,7 +13,14 @@ y-coordinate.
 
 ## Documentation
 
-The input takes the following form separated by lines
+Code is organized  `/components` folder the program is divided to `CreateWorld` `MovingMachine`
+and `CalculateOrientation`
+
+section.
+
+The main program run on `index.ts`
+
+The input for the program takes the following form separated by lines
 
 4 8
 (2, 3, E) LFRFF
@@ -24,10 +31,12 @@ The input takes the following form separated by lines
 3. Each line is related with one Robot.
 
 ## Quickstart
+
 ```
 docker run -it <name of your image > /bin/bash 
 ```
-This will open an interactive terminal and you can run the cli app like below 
+
+This will open an interactive terminal and you can run the cli app like below
 
 ```
 npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF" 
@@ -36,5 +45,5 @@ npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF"
 i stands for input and then you can pass you input like that
 
 48
-(2, 3, E) LFRFF 
+(2, 3, E) LFRFF
 (0, 2, N) FFLFRFF
