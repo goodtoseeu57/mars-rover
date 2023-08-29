@@ -19,7 +19,8 @@ and `CalculateOrientation` sections.
 On `utils` folder you can find functions that can work as helpers e.g a `function` that _converts a string value to its
 corresponding enum value_.
 
-The main program runs on `index.ts`. `/Marsworld` and `marsWorld` function is the starting point of the functionality
+The main program runs on `index.ts`. `/Marsworld` and `marsWorld` function serves as the starting point for the
+functional logic.
 logic.
 
 The input for the program takes the following form separated by lines
