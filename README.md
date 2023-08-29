@@ -14,9 +14,7 @@ y-coordinate.
 ## Documentation
 
 Code is organized  `/components` folder the program is divided to `CreateWorld` `MovingMachine`
-and `CalculateOrientation`
-
-section.
+and `CalculateOrientation` sections.
 
 The main program run on `index.ts`
 
