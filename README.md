@@ -24,13 +24,14 @@ The input takes the following form separated by lines
 3. Each line is related with one Robot.
 
 ## Quickstart
-
+```
 docker run -it <name of your image > /bin/bash 
-
+```
 This will open an interactive terminal and you can run the cli app like below 
 
-npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF"cd '/Users/chris/exercises/mars-rover' 
-
+```
+npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF" 
+```
 
 i stands for input and then you can pass you input like that
 
