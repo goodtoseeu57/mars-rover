@@ -54,3 +54,8 @@ i stands for input, and then you can pass you input like that
 
 (0, 2, N) FFLFRFF
 ```
+
+
+## Running tests
+
+
