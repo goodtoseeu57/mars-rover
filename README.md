@@ -45,8 +45,6 @@ npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF"
 
 i stands for input, and then you can pass you input like that
 
-
-
 ```
 4 8
 
@@ -55,7 +53,11 @@ i stands for input, and then you can pass you input like that
 (0, 2, N) FFLFRFF
 ```
 
-
 ## Running tests
+
+`npm run test `
+
+or installing the Jest plugin in vs code and run them individually like below 
+
 
 
