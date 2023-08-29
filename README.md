@@ -8,13 +8,16 @@ This project models a world as a grid with dimensions m x n. It reads input data
 states of the robots. Each robot is defined by its position (x, y) and orientation (N, E, S, W). The robots can perform
 three actions: move forward (F), rotate left by 90 degrees (L), or rotate right by 90 degrees (R). If a robot moves off
 the grid, it is marked as 'lost,' and its last valid position and orientation are recorded. The grid is defined with (
-0,0) as the south-west corner, and moving east increases the x-coordinate, while moving north increases the
+0,0) as the southwest corner, and moving east increase the x-coordinate while moving north increases the
 y-coordinate.
 
 ## Documentation
 
-Code is organized  `/components` folder the program is divided to `CreateWorld` `MovingMachine`
+Code is organized in  `/components` folder the program is divided into `CreateWorld` `MovingMachine`
 and `CalculateOrientation` sections.
+
+On `utils` folder you can find functions that can work as helpers e.g a `function` that _converts a string value to its
+corresponding enum value_.
 
 The main program run on `index.ts`
 
@@ -24,9 +27,9 @@ The input for the program takes the following form separated by lines
 (2, 3, E) LFRFF
 (0, 2, N) FFLFRFF`
 
-1. First line indicates the m and n of the grid
+1. The first line indicates the m and n of the grid
 2. The remaining lines indicate the robot's movements, with parentheses denoting the initial position and orientation.
-3. Each line is related with one Robot.
+3. Each line is related to one Robot.
 
 ## Quickstart
 
@@ -34,15 +37,19 @@ The input for the program takes the following form separated by lines
 docker run -it <name of your image > /bin/bash 
 ```
 
-This will open an interactive terminal and you can run the cli app like below
+This will open an interactive terminal, and you can run the CLI app like below
 
 ```
 npx ts-node src/index.ts run -i "4 8\n(2, 3, E) LFRFF\n(0, 2, N) FFLFRFF" 
 ```
 
+<<<<<<< HEAD
 i stands for input, and then you can pass you input like that
 `
 4 8
+=======
+i stands for input and then you can pass your input like that
+> > > > > > > 975b30da8a1452e7049ab84898e261132d533dae
 
 (2, 3, E) LFRFF
 
